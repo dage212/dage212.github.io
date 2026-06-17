@@ -5,7 +5,7 @@ export default defineConfig({
   title: "SourceCodeDocs",
   description: "SourceCodeDocs provides a detailed explanation of the VueSourceCode architecture and principles.",
   head: [
-    ['link', { rel: 'icon', href: '/vue-source-docs/logo.ico' }], 
+    ['link', { rel: 'icon', href: '/logo.ico' }], 
     ['script', {}, `
       var _hmt = _hmt || [];
       (function() {
@@ -49,9 +49,9 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present dage212'
     }
   },
-  base: '/vue-source-docs/',
+  base: '/',
   sitemap: {
-    hostname: 'https://dage212.github.io/vue-source-docs/'
+    hostname: 'https://dage212.github.io/'
   },
   lastUpdated: true
 })
